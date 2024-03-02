@@ -1,0 +1,124 @@
+body {
+    background-color: #19191E;
+    color: #EBEBDC;
+    font-family: Product Sans;
+}
+
+input[type="number"] {
+    background-color: #EBEBDC;
+    color: #19191E;
+    font-family: Product Sans;
+    font-weight: 200;
+    font-size: 1.1em;
+    vertical-align: middle;
+    margin-top: -6px;
+    margin-left: 5px;
+    border: 3px #6464DC solid;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#diceAmountSelector {
+    width: 50%;
+}
+
+
+button {
+    background-color: #6464DC;
+    color: #19191E;
+    font-family: Product Sans;
+    font-weight: 800;
+    font-size: 1.2em;
+    border: 2px #EBEBDC solid;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8383f3;
+    transition: background-color 0.3s;
+}
+
+button:active {
+    background-color: #37377c;
+    color: #EBEBDC;
+    transition: background-color 0s;
+    transition: color 0s;
+}
+
+#mainContainer {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    background-color: #25252F;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    border-radius: 50px;
+}
+
+#title {
+    width: 100%;
+    font-size: 3.5em;
+    border-bottom: 1px #6464DC solid;
+    padding-bottom: 4%;
+}
+
+#inputBlockHolder {
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+#resultText {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.6em;
+}
+
+#diceHolder {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 4px #19191E inset;
+}
+
+#diceHolder > img {
+    width: 31%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: auto;
+}
+
+#disclaimer {
+    font-weight: 200;
+    width: 100%;
+    font-size: 0.9em;
+    margin-bottom: 1%;
+    color: #6464DC;
+}
+
+/* 
+colors:
+    bg: #19191E
+    level 1: #25252F
+    level 2: #2D2D46
+    accent: #6464DC
+    text: #EBEBDC
+*/
