@@ -19,7 +19,7 @@ rollBtn.onclick = function () {
         diceHolder.style.visibility = "hidden";
         resultText.textContent = "";
     }
-    else if (Number(toRoll) > 100 || Number(toRoll) <= 0) {
+    else if (Number(toRoll) > 500000 || Number(toRoll) <= 0) {
         diceAmountSelector.value = "";
         window.alert("Invalid Input (number out-of-bounds). Try again");
         diceHolder.style.visibility = "hidden";
